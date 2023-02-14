@@ -4447,7 +4447,7 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.55);
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: #E17F4E;
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
@@ -11307,4 +11307,24 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
+}
+
+.contact-button{
+  border: 2px solid #454F84;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #454F84;
+  border-radius:15px;
+}
+
+.contact-button:hover {
+  border: 2px solid #454F84;
+  background-color: white;
+  color: #454F84;
 }
