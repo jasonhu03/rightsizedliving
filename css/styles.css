@@ -4066,6 +4066,9 @@ textarea.form-control-lg {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  padding-top: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -4080,6 +4083,7 @@ textarea.form-control-lg {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  text-align: left;
 }
 
 .navbar-toggler {
@@ -11312,17 +11316,20 @@ html {
 .contact-button{
   border: 2px solid #454F84;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px -5px 4px 15px;
   cursor: pointer;
   background-color: #454F84;
   border-radius:15px;
 }
 
+.collapse .contact-button{
+  margin-left: 0px;
+}
 .contact-button:hover {
   border: 2px solid #454F84;
   background-color: white;
