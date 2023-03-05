@@ -10,6 +10,8 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -6984,6 +6986,14 @@ textarea.form-control-lg {
   min-width: 100vw !important;
 }
 
+.h-12{
+  height: 12% !important;
+}
+
+.w-12{
+  width: 12% !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -7305,6 +7315,11 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.my-6 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -7606,6 +7621,11 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important;
 }
 
+.font-roboto{
+  font-family:var(--bs-font-Roboto) !important;
+  font-weight: lighter !important;
+}
+
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
@@ -7777,7 +7797,7 @@ textarea.form-control-lg {
 
 .text-navy {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-navy-rgb), var(--bs-text-opacity)) !important;
+  color:#454F84 !important;
 }
 
 .text-body {
@@ -11345,4 +11365,14 @@ html {
   border: 2px solid #454F84;
   background-color: white;
   color: #454F84;
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
