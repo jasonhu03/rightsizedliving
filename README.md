@@ -1,1 +1,1 @@
-# rightsizedliving
+# rightsizedliving website
